@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BTJR Distribuição</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .header {
+            background-color: #104E8B; 
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        .nav-links {
+            display: flex;
+            justify-content: center;
+            list-style: none;
+        }
+
+        .nav-links li {
+            margin: 0 15px;
+        }
+
+        .nav-links a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .section {
+         padding: 30px 0;
+         text-align: center;
+        }
+
+        .section h2 {
+            margin-bottom: 20px;
+            font-size: 2em;
+            color: #333;
+        }
+
+        .section p {
+            font-size: 1.2em;
+            color: #666;
+            margin-bottom: 40px; 
+        }
+
+        .section img {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 20px;
+            border-radius: 8px;
+        }
+
+        .contact-form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .contact-form label {
+            margin-top: 10px;
+            margin-bottom: 5px;
+            font-size: 1em;
+            color: #333;
+        }
+
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            max-width: 500px;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .contact-form button {
+            padding: 10px 20px;
+            background-color: #1E90FF; 
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .testimonials-section p {
+         margin-bottom: 20px; 
+        }
+
+        .testimonials-section p:last-of-type {
+        margin-bottom: 0; 
+        }
+
+        .contact-form button:hover {
+            background-color: #104E8B; 
+        }
+
+        .footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+        }
+
+        @media (max-width: 768px) {
+            .nav-links {
+                flex-direction: column;
+            }
+
+            .contact-form input, .contact-form textarea {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1>BTJR Distribuição</h1>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#about">Sobre</a></li>
+                    <li><a href="#services">Produtos/serviços</a></li>
+                    <li><a href="#benefits">Vantagens/benefícios</a></li>
+                    <li><a href="#testimonials">Depoimentos</a></li>
+                    <li><a href="#contact">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="about" class="about-section section">
+        <div class="container">
+            <h2>Sobre a BTJR Distribuição</h2>
+            <p>A BTJR Distribuição é uma empresa líder no setor de logística e distribuição, com anos de experiência em fornecer soluções completas e eficientes para nossos clientes. Nossa missão é garantir que produtos de diversos setores cheguem a seus destinos com segurança, rapidez e confiabilidade.</p>
+            <p>Desde o gerenciamento de inventário até a entrega final, a BTJR Distribuição se compromete a manter os mais altos padrões de qualidade e eficiência. Trabalhamos com uma ampla gama de produtos, incluindo alimentos e bebidas, produtos de limpeza, e itens de consumo diário, sempre buscando superar as expectativas dos nossos parceiros e clientes.</p>
+        </div>
+    </section>
+
+    <section id="services" class="services-section section">
+        <div class="container">
+            <h2>Nossos produtos e serviços</h2>
+            <p>Oferecemos uma ampla gama de produtos e serviços para atender às suas necessidades de distribuição.</p>
+            <img src="C:\Users\F895\OneDrive - PETROBRAS\Área de Trabalho\BTJR\Produtos.png" alt="Produtos de Supermercado">
+            <img src="C:\Users\F895\OneDrive - PETROBRAS\Área de Trabalho\BTJR\Limpeza.jpeg" alt="Produtos de limpeza">
+            <img src="C:\Users\F895\OneDrive - PETROBRAS\Área de Trabalho\BTJR\Chocolates.jpg" alt="Chocolate">
+        </div>
+    </section>
+
+    <section id="benefits" class="benefits-section section">
+        <div class="container">
+            <h2>Vantagens e benefícios</h2>
+            <p>Com a BTJR Distribuição, você ganha eficiência, economia e segurança em cada entrega.</p>
+            <img src="C:\Users\F895\OneDrive - PETROBRAS\Área de Trabalho\BTJR\Paletes.jpg" alt="Empilhando Paletes">
+            <img src="C:\Users\F895\OneDrive - PETROBRAS\Área de Trabalho\BTJR\Caminhão.jpg" alt="Carregando Caminhões">
+        </div>
+    </section>
+
+    <section id="testimonials" class="testimonials-section section">
+        <div class="container">
+            <h2>O que nossos clientes dizem</h2>
+            <p>"A BTJR Distribuição sempre entrega no prazo e com extrema qualidade. Recomendo!"</p>
+            <p><strong>- Ana Costa, CEO da Lumina Foods</strong></p>
+            
+            <p>"Serviço impecável e atendimento excepcional. Não troco por nenhuma outra empresa!"</p>
+            <p><strong>- Rafael Nogueira, Diretor de Operações da Verde Logistics</strong></p>
+            
+            <p>"A eficiência e o cuidado no transporte fazem toda a diferença. Excelente parceria!"</p>
+            <p><strong>- Camila Martins, Gerente de Logística da Solarex Distribuição</strong></p>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section section">
+        <div class="container">
+            <h2>Entre em contato</h2>
+            <form action="#" method="POST" class="contact-form">
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Mensagem:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 BTJR Distribuição. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+</body>
+</html>
